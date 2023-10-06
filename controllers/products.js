@@ -34,17 +34,17 @@ let skip = (page - 1) * limit;
 
 apiData = apiData.skip(skip).limit(limit)
 
-   const myData = await apiData; // const myData = await Product.find({});
-   res.status(200).json({ myData, nbHits: myData.length });
+   const Products = await apiData; // const Products = await Product.find({});
+   res.status(200).json({ Products, nbHits: Products.length });
 };
 
 const getAllProductsTesting = async (req, res ) => {
-   const myData = await Product.find(req.query);
+   const Products = await Product.find(req.query);
    console.log(
      " ~ file: product.js ~ line 10 ~ getAllProductsTesting ~ req.query",
      req.query
    );
-    res.status(200).json({ myData });
+    res.status(200).json({ Products });
  };
 
  module.exports = { getAllProducts, getAllProductsTesting };
