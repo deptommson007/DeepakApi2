@@ -1,0 +1,52 @@
+[
+    
+    {
+      "name": "iphone",
+      "price": 154,
+      "featured": true,
+      "company": "apple"
+    },
+    {
+      "name": "iphone10",
+      "price": 1154,
+      "featured": true,
+      "company": "apple"
+    },
+    {
+      "name": "watch",
+      "price": 204,
+      "company": "apple"
+    },
+    {
+      "name": "watch10",
+      "price": 654,
+      "company": "apple"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple"
+    },
+    {
+      "name": "tablet",
+      "price": 15400,
+      "company": "apple"
+    }
+  
+  
+  ]
